@@ -1,0 +1,138 @@
+
+img{
+    width: 100%;
+}
+
+/* hero banner   */
+.banner {
+    background-color: #f7f7f7;
+    color: #2B2B2B;
+}
+.banner .row {
+    align-items: center;
+}
+
+.row h1 {
+    text-transform: uppercase;
+    font-family: 'poppins', sans-serif;
+}
+
+.row p {
+    font-size: 1.2em;
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+}
+
+.banner .btn {
+    padding: .5em 1.5em;
+    border-radius: 2em;
+}
+
+
+
+/* section 1 text and image  */
+
+h2 {
+    font-family: 'poppins', sans-serif;
+}
+li{
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+}
+.child-care .row-text {
+    justify-content: center;
+}
+.child-care .btn {
+    padding: .5em 1.5em;
+    border-radius: 2em;
+    
+}
+/* section 2 text and image  */
+.adult-care .btn {
+    padding: .5em 1.5em;
+    border-radius: 2em;
+}
+
+
+/* section 2 case study   */
+.case-study {
+    background-color: #f7f7f7;
+}
+.case-study .btn {
+    padding: .5em 1.5em;
+    border-radius: 2em;
+}
+
+.case-study .h2{
+    font-family: 'poppins', sans-serif;
+    color: #444444;
+}
+
+.case-study p {
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    color: #2B2B2B;
+}
+
+/* Media for all sizes  */
+ /* banner  */
+ /* pc  view  */
+ @media (min-width: 992px) {
+    .adult-text,
+    .child-text {
+        display: flex-column;
+        justify-content: center;
+        margin-top: 70px;
+    }
+}
+
+/* tablet view  */
+@media screen and (max-width:810px){
+    p {
+        font-size: 1.2em;
+    }
+    .banner{
+        padding: 2em;
+        text-align: center;
+    }
+    .child-care{
+        padding: 2em;
+        text-align: center;
+    }
+    .adult-care{
+        padding: 2em;
+        text-align: center;
+    }
+    
+}
+/* mobile view  */
+@media screen and (max-width:768px){
+    .banner{
+        padding: 2em;
+        text-align: center;
+    }
+    .child-care{
+        padding: 2em;
+        text-align: center;
+    }
+    .adult-care{
+        padding: 2em;
+        text-align: center;
+    }
+    .case-study{
+        text-align: center;
+    }
+}
+
+/* FAQ section   */
+
+.FAQ h2 {
+    font-family: 'poppins', sans-serif;
+    color: #444444;
+}
+    
+.FAQ p {
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    color: #2B2B2B;
+}

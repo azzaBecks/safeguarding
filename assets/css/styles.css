@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin: left 0;
+   }
+   /* css of about us page*/
+body {
+
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'poppin', sans-serif;
+}
+.box-margin {
+    margin: 20px; /* Adds a 20px margin on all sides */
+    padding: 10px;
+    background-color: white;
+    border: 1px solid white;
+}
+h4{
+    text-align: center;
+}
+
+/* section of about us page*/
+.section {
+    padding: 20px;
+    color: #2b2b2b;
+}
+.btn { 
+    padding: .5em 1.5em; 
+    border-radius: 2em; 
+}
+.who-we-are {
+    background-color:#f7f7f7; /* gray */
+    text-align: center;
+} 
+
+.what-we-do {
+    background-color:#f7f7f7; /*gray */
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0; /* about us page*/
+}
+h3{
+    margin-top:0;  /* about us page*/
+}
+/* footer css */
+.owner-info {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer a {
+    transition: color 0.2s;
+}
+
+.footer a:hover {
+    color: #f7f7f7;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.social-media a:hover {
+    color: #f7f7f7;
+}
+
+h5 {
+    margin-bottom: 15px;  /* footer */
+}
+
+/*contact us page css*/
+.contact-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+  }
+  .form-control:focus {
+    box-shadow: none;
+  }
+  .btn-submit {
+    background-color: #007bff;
+    border: none;
+  }
+  .btn-submit:hover {
+    background-color: #0056b3;
+  }
+  .cont-col{
+    background-color: #f7f7f7;
+  }
+  /*end of contact us css*/
